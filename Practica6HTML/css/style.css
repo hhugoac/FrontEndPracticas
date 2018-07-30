@@ -1,0 +1,58 @@
+h1
+{
+    color:lightskyblue;
+   
+}
+header
+{
+    color:#00FF00;
+    background-color: #096e0e;
+}
+nav
+{
+    color:#00aa00;
+}
+aside
+{
+    background-color:lightblue;
+}
+.container
+{
+    background-color: lightseagreen;
+}
+li
+{
+    list-style-type: none;
+}
+a:hover 
+{
+    color: hotpink;
+}
+a:link
+{
+    color: black;
+}
+a:visited
+{
+    color:yellow;
+}
+a:active
+{
+    color:yellowgreen;
+}
+.pares
+{
+    background-color: bisque;
+}
+.impares
+{
+    background-color: azure;
+}
+.tituImpares
+{
+    background-color: gold;
+}
+.tituPares
+{
+    background-color: plum;
+}

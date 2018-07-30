@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- El archivo css se coloca antes de title despues de los metas para ligarlo, se agrega aqui por que cuando se van ejecutando todas las etiqutetas empiezan de arriba hacia abajo, y si se coloca al final del documento no se redenrizan los estilos-->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Prototipo de un blog</title>
+
+</head>
+<body>
+    <!--Es es un comentario en la primera pagina. Estructura de documentos()    -->
+    <header>
+        Esta es mi cabecera
+    </header>
+    <nav>
+        <!--ul hace una lista con puntos o viñetas mientasr que ol una lista enumeradaw -->
+        <ol> 
+            <li> <a href="prueba.html">Opcion 1</a> </li>
+            <li> <a href="video.html"> Opcion 2 </a> </li>
+            <li><a href="formulario.html">Opcion 3</a> </li>
+            <li><a href="boxModel.html">Box Model</a></li>
+            <li>Opcion 5</li>
+        </ol>
+    </nav>
+    <section>
+        <h1>Esta es mi sección</h1>
+        <p id="primerParrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste alias optio eaque eum sed temporibus sapiente necessitatibus, vero quod facere illo magni accusamus odio aliquid, aliquam a ea ducimus praesentium.</p>
+
+        <p id="segundoParrafo"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta itaque, asperiores nobis dolor officia eius illo repellendus ad similique tempore debitis atque, laboriosam optio facilis impedit suscipit, ullam quos vitae!</p>
+
+        <p id="tercerParrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit corporis eveniet sunt mollitia quidem sed necessitatibus facilis impedit possimus obcaecati maxime dolores, asperiores similique praesentium nobis doloremque perferendis odio. Optio!</p>
+
+        <p id="cuartoParrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut, ipsam quisquam eligendi nulla voluptate et, ab incidunt est vero adipisci maxime ullam, eos doloremque totam atque corporis eum aliquid.</p>
+        <div class="parrafoImpar">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptas omnis nostrum quod sint ex nesciunt eligendi sapiente excepturi sed ab velit labore quia, fugiat, odit non tempora corporis debitis?
+        </div>
+        <div class="parrafoPar">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptas omnis nostrum quod sint ex nesciunt eligendi sapiente excepturi sed ab velit labore quia, fugiat, odit non tempora corporis debitis?
+        </div>
+        <div class="parrafoImpar">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptas omnis nostrum quod sint ex nesciunt eligendi sapiente excepturi sed ab velit labore quia, fugiat, odit non tempora corporis debitis?
+        </div>
+    </section>
+    <section>
+            <h1>Imagén</h1>
+            <figure>
+                <img src="images/share_background.jpg" alt="Fondo X"/>
+                <img src="images/awXLyW8_700b.jpg" alt="">
+                <img src="images/Koala.jpg" alt="">
+            </figure>
+        </section>
+   
+    <section>
+            <h1>Audio</h1>
+            <audio controls><source src="audio/SleepAway.mp3" type="audio/mpeg"></audio>
+    </section>
+
+    <footer>
+        <em>
+        Este es mi pie de página 
+        </em>
+    </footer>
+    <!--El script se coloca aqui cuando todos los elementos de la pagina se han cargado, para que no cause errores-->
+    <script src="js/script.js"></script>
+</body>
+</html>

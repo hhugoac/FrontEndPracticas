@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Práctica Bootstrap</title>
+</head>
+<body>
+    <header>
+        <h1>Práctica Bootstrap</h1>
+    </header>
+
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut modi placeat minus quo ratione qui, illum magnam cum numquam. Autem nobis porro natus debitis suscipit iure placeat explicabo voluptatum rem.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate placeat illo culpa qui beatae laudantium esse veniam natus dolore sapiente, id, earum fuga voluptas non in consequuntur ipsa nemo animi?
+    </p>
+    <p>
+        <table class="table-borderless">
+            <thead class="table-dark">
+                <tr >
+                    <th>Id Paciente</th><th>Nombres</th><th>Apellidos paciente</th> <th>Número telefónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-primary">
+                    <th >101</th><th>Arturo</th><th>Alonso Rubio</th><th>3331323436</th>
+                </tr>
+                <tr>
+                    <th>102</th><th>Noemi</th><th>Fuentes Rojas</th><th>4757678788</th>
+                </tr>
+                <tr class="table-active">
+                    <th>103</th><th>Andrea</th><th>Perez</th><th>3436353832</th>
+                </tr>
+                <tr class="table-success">
+                    <th>104</th><th>Martin</th><th>Casas</th><th>31323435</th>
+                </tr>
+                <tr class="table-light">
+                    <th>105</th><th>Celina</th><th>SAnta Cruz</th><th>78787878789898</th>
+                </tr>
+
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+    </p>
+    <p id="Botones">
+        <input type="button" value="Da click!" class="btn btn">
+        <input type="button" value="Da click!" class="btn btn-primary"> <!--SE usa el inputn en lugar de la etiqueta bottom(que es para html4)-->
+        <input type="button" value="Da click!" class="btn btn-secondary">
+        <input type="button" value="Da click!" class="btn btn-success">
+        <input type="button" value="Da click!" class="btn btn-info">
+        <input type="button" value="Da click!" class="btn btn-warning">
+        <input type="button" value="Da click!" class="btn btn-danger">
+        <input type="button" value="Da click!" class="btn btn-dark">
+        <input type="button" value="Da click!" class="btn btn-light">
+        <input type="button" value="Da click!" class="btn btn-link">
+    </p>
+    <hr/>
+    <form action="formulario.html" method="POST">
+        <div>
+            <label for="txtNombre">Introduce tu nombre:</label>
+            <input class="form-control" type="text" id="txtNombre" name="txtNombre">
+        </div>    
+        <div>
+            <label for="txtApellido">Introduce tu apellido</label>
+            <input class="form-control" type="text" id="txtApellido" name="txtApellido">
+        </div>
+        <div>
+            <label for="txtPassword">Introduce tu contraseña</label>
+            <input class="form-control" type="password" id="txtPassword" name="txtPassword">
+        </div>
+
+        <div class="form-group">
+            <input type="radio" id="rdbPerritus1" name="Perritus" value="Dalmata">
+            <label for="rdbPerritus1">Dalmata</label>
+            <input type="radio" id="rdbPerritus2" name="Perritus" value="Yorky">
+            <label for="rdbPerritus2">Yorky</label>
+            <input type="radio" id="rdbPerritus3" name="Perritus" value="Chihuahua" disabled>
+            <label for="rdbPerritus3">Chihuahua</label>
+        </div>
+        <div>
+            <input type="checkbox" id=" chkPerritos" name="chkPerritos" value="Perritus" checked>
+            <label for="chkPerritos">Perros</label>
+            <input type="checkbox" id="chkGatito" name="chkGatito" id="chkGatito" >
+            <label for="chkGatito">Gatos</label>
+            <input type="checkbox" id="chkAves" name="chkAves" value="Aves" checked>
+            <label for="chkAves">Aves</label>
+        </div>
+        
+        <input class="btn btn-primary" type="submit" value="Enviar información">
+    </form>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+/*Damos estilo al body*/
+body
+{
+    /* *Esta línea hace lo mismo que las tres siguientes:
+    font: 15px bold sans-serif;*/
+    font-size: 14px; /*cuando la solo se aplica al tamaño de la fuente*/ 
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:navy;
+    background-color:#aaccff;
+
+}
+
+/*Damos estilo al ecabezado del documento*/
+h1
+{
+    color:#077c72;
+    text-align: center;
+    border-style: dashed;
+    border-width: 3px;
+
+}
+p
+{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: inherit;
+    word-spacing: 1.5 em;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+
+/*Damos estilo al primer parrafo, las identificaciones van acompañadas de # y la id al que hacen referencia*/
+#primerParrafo
+{
+    margin: 1px 2px 1px 2px;
+    border: 1px 2px 1px 2px solid #000000;
+    padding:10px 10px 10px 10px;
+    background-color: lightblue;
+    text-align: left;
+}
+
+#segundoParrafo
+{
+    background-color: beige;
+    letter-spacing: 3.5 em;
+    word-spacing: 9 em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/*Para hacer referencia a una clase se usa .nombreClase*/
+.parrafoPar
+{
+    background-color: bisque;
+    
+}
+
+.parrafoImpar
+{
+    background-color: mediumseagreen;
+
+}

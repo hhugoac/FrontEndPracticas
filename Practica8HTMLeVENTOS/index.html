@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Practica Eventos</h1>
+
+    <input type="button" value="Da click y verás" onclick="alert('Prueba')" onmouseout="alert('Me sali')" onmouseover="console.log('Evento holo')">
+
+    <div id="contendidos" onmouseover="document.getElementById('contenidos').style.borderColor='black'" onmouseout="document.getElementById('contenidos').style.borderColor='silver';">
+        Sección de contenidos ...
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium non optio, voluptas nisi magni delectus odit, exercitationem facere repellendus vero ipsa possimus neque explicabo eos, animi autem commodi pariatur sunt?
+    </div>
+    <div id="contenidos2"  onmouseover="cambiaNegro()" onmouseout="cambiaGris()">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum aperiam laboriosam, distinctio officia illum inventore quae nam iure sapiente eum officiis excepturi impedit ex, quos suscipit veritatis voluptatum? Dicta, quibusdam.
+    </div>
+
+    <hr/>
+    <h1 id="tituEventos">Eventos semanticos la forma correcta de manejar eventos</h1>
+    <div id="primerDiv">
+        <p id="primerParrafo">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus maiores doloremque iusto ratione maxime libero accusamus natus ipsa, inventore quae rerum a eum minus nemo enim mollitia reiciendis eveniet sint.
+        </p>
+        <p id="segundoParrafo">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem natus sed quasi quia dolorem hic, quod consectetur, obcaecati, eveniet officia totam sequi! Possimus dignissimos nam esse totam, officia in blanditiis!
+        </p>
+    </div>
+    input
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

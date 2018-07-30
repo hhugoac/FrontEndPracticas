@@ -1,0 +1,14 @@
+
+h1
+{
+    color: cornflowerblue;
+}
+
+#contendidos,#contenidos2
+{
+    width:600px; 
+    height:150px; 
+    border:thin solid silver;
+    color:rebeccapurple;
+}
+
